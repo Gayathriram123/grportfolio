@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.section-one{
+    background-color:black;
+    color:white;
+    padding:20px;
+    margin:10px; 
+       
+}
+body{
+    margin:80px;
+    
+}
+
+.section-one__desc{
+    color:green;
+}
+.section-two,.section-three,.section-four,.section-five{
+    display:inline-block;
+    border:solid black 2px;
+}
+.section-two__img,.section-three__img,.section-four__img,.section-five__img{
+    width:150px;
+    height: 250px;
+}
+.section-two__button,.section-three__button,.section-four__button,
+.section-five__button{
+    background-color:black;
+    color:white;
+    padding:5px;
+    font-size:10px;
+}
+.section-six{
+    background-color:black;
+    color:white;
+    margin:10px;
+    padding:20px;
+    
+}
+.section-six__button{
+    background-color: yellow;
+    width:400px;
+}
